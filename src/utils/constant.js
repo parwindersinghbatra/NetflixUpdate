@@ -1,4 +1,4 @@
-export const API_END_POINT = 'http://localhost:10000/api/v1/user'
+export const API_END_POINT = 'https://netflixbackend-five.vercel.app/api/v1/user'
 
 
 // ;
