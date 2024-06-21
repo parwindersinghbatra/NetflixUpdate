@@ -20,7 +20,8 @@ app.use(cookiesParser())
 app.use(express.urlencoded({extended: true}))
 
 const corsOptions = {
-    origin: 'http://localhost:3000',
+    // origin: 'http://localhost:3000',
+    origin:'https://netflix-update-six.vercel.app/',
     credentials: true,  
 }
 
