@@ -1,0 +1,1 @@
+mongodb+srv://netflix_db:<password>@atlascluster.knegwia.mongodb.net/
