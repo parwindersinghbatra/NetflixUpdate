@@ -10,8 +10,6 @@ const app = express()
 dotenv.config()
 databaseConnection();
 
-
-
 const port = process.env.PORT_NO
 app.use(express.json())
 
@@ -21,7 +19,7 @@ app.use(express.urlencoded({extended: true}))
 
 const corsOptions = {
     // origin: 'http://localhost:3000',
-    origin:'https://netflix-update-six.vercel.app/',
+    origin:'http://localhost:10000/api/v1/user',
     credentials: true,  
 }
 
