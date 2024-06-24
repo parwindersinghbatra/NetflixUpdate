@@ -16,6 +16,6 @@ This project is a MERN stack application designed for managing videos. It includ
 
 ## Features
 
-**User Registration and Login**: Users can register with the system and subsequently log in using their credentials.
-**Dashboard**: Upon successful login, users are redirected to a dashboard where all available videos are displayed.
-**Video Management**: Videos are managed within the MongoDB database, including metadata such as title, description, and URLs.
+1. **User Registration and Login**: Users can register with the system and subsequently log in using their credentials.
+2. **Dashboard**: Upon successful login, users are redirected to a dashboard where all available videos are displayed.
+3. **Video Management**: Videos are managed within the MongoDB database, including metadata such as title, description, and URLs.
